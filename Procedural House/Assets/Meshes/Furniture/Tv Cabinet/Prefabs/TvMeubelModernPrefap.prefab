@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1402197584137765845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5898215270816827107}
+  - component: {fileID: 6701203000612854836}
+  m_Layer: 0
+  m_Name: TvSpawnLoc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5898215270816827107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402197584137765845}
+  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.30000004, z: -0.19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6390687220684580614}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+--- !u!114 &6701203000612854836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402197584137765845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f98480dd5d6c489f7110633852588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tv:
+  - {fileID: -927199367670048503, guid: 7113a06d81138854b88fe41e4c8b9222, type: 3}
+  - {fileID: -927199367670048503, guid: 379b0d88e4183c34080f66ab394e9875, type: 3}
+  - {fileID: -927199367670048503, guid: f2e56c8f31e8fa74d844bee614d3c6ce, type: 3}
+  - {fileID: -927199367670048503, guid: fab7da65bb4b1c24ca60f193af809311, type: 3}
+--- !u!114 &3121960259914767841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384994313036197818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1744872bfd03d944cb5d35dae9a7bbc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CouchMaterial:
+  - {fileID: 2100000, guid: aa4107c7a9f249b4c806f02ac4164e96, type: 2}
+  - {fileID: 2100000, guid: 1a987a92c46f53141ae382d0fb3e23c5, type: 2}
+  - {fileID: 2100000, guid: 75bef05d12a9eca41a5c35c93db8b781, type: 2}
+  - {fileID: 2100000, guid: 7bae480650e382b47b66359728124a7c, type: 2}
+--- !u!1 &5973829501084831403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6390687220684580614}
+  - component: {fileID: 6847414721402593466}
+  m_Layer: 0
+  m_Name: TvMeubelModernPrefap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6390687220684580614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5973829501084831403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.22629, y: 0.303, z: 2.792}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5898215270816827107}
+  - {fileID: 1676019014503996841}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6847414721402593466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5973829501084831403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2, y: 0.62, z: 0.6}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &5924730120489547443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6390687220684580614}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.4999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999985
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a987a92c46f53141ae382d0fb3e23c5, type: 2}
+    - target: {fileID: -927199367670048503, guid: 0c32815aea4d06246989d3a8606ab59d,
+        type: 3}
+      propertyPath: m_Name
+      value: TvMeubelModern 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c32815aea4d06246989d3a8606ab59d, type: 3}
+--- !u!1 &2384994313036197818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 0c32815aea4d06246989d3a8606ab59d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5924730120489547443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1676019014503996841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0c32815aea4d06246989d3a8606ab59d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5924730120489547443}
+  m_PrefabAsset: {fileID: 0}

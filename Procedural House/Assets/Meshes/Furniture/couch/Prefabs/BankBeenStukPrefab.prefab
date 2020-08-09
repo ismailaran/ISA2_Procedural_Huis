@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5686118399888194246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474058023509111616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1744872bfd03d944cb5d35dae9a7bbc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CouchMaterial:
+  - {fileID: 2100000, guid: 1b77a07b10f12674b84642dd8db0b69a, type: 2}
+  - {fileID: 2100000, guid: 0167b5e0b9ce59f4792f8dfd4e8d3659, type: 2}
+  - {fileID: 2100000, guid: 884739db4dca8fc4b94c559f7f2ded44, type: 2}
+  - {fileID: 2100000, guid: ec97dc46ed745ba4bbc68a5b978d4503, type: 2}
+--- !u!1 &7974449907658209172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9222915321346263536}
+  - component: {fileID: 1960938461828977217}
+  m_Layer: 0
+  m_Name: BankBeenStukPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9222915321346263536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974449907658209172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.014, y: 2.302, z: -9.692}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1445311826687541587}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1960938461828977217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974449907658209172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2456827, y: 1.4313915, z: 1.0990734}
+  m_Center: {x: 0.23738337, y: 0.3111676, z: 0.17943573}
+--- !u!1001 &5869443467322092105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9222915321346263536}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.628
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5000008
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49999925
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.49999928
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.515962
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 72.59855
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.564935
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 884739db4dca8fc4b94c559f7f2ded44, type: 2}
+    - target: {fileID: -927199367670048503, guid: b3d3c200fea14314bbe3be85489fe25a,
+        type: 3}
+      propertyPath: m_Name
+      value: BankBeenStukU
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3d3c200fea14314bbe3be85489fe25a, type: 3}
+--- !u!1 &2474058023509111616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: b3d3c200fea14314bbe3be85489fe25a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5869443467322092105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1445311826687541587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b3d3c200fea14314bbe3be85489fe25a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5869443467322092105}
+  m_PrefabAsset: {fileID: 0}
